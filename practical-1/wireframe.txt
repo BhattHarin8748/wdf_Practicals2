@@ -1,0 +1,140 @@
+LOW-FIDELITY WIREFRAME
+
+HEADER
+[StudentHub Logo] [Home] [About] [Events] [FAQ] [Contact] [Login] [Register]
+
+HOME
+--------------------------------------------------
+|             HERO / WELCOME                    |
+|  Student portal introduction                  |
+|  [Join StudentHub] [Explore Events]           |
+--------------------------------------------------
+| Events Card | Profile Card | Notices Card     |
+--------------------------------------------------
+|               Footer                          |
+--------------------------------------------------
+
+DASHBOARD
+--------------------------------------------------
+| Dashboard heading                    [Events] |
+--------------------------------------------------
+| Upcoming | Notices | Profile Completion       |
+--------------------------------------------------
+| Latest Notices       | Quick Actions          |
+--------------------------------------------------
+
+REGISTER
+--------------------------------------------------
+| Full Name       | Email                      |
+| Mobile          | Course                     |
+| Year            | Gender                     |
+| Password        | Confirm Password           |
+| [ ] Terms                                   |
+|             [Create Account]                 |
+--------------------------------------------------
+
+ABOUT
+--------------------------------------------------
+|              ABOUT STUDENTHUB                 |
+|  A simple portal for a connected campus.       |
+|  Project introduction                          |
+--------------------------------------------------
+| Our Goal                 | Project Modules     |
+| Portal purpose           | Home, registration, |
+| and student benefits    | events, profile...  |
+--------------------------------------------------
+|               Footer                          |
+--------------------------------------------------
+
+ADMIN
+--------------------------------------------------
+| ADMIN MODULE                    [Logout]       |
+| Portal Overview                               |
+--------------------------------------------------
+| Registered Students | Events | Feedback        |
+|        128          |   24   |    37           |
+--------------------------------------------------
+|              Recent Activity                  |
+| New registration | Event update | Feedback    |
+--------------------------------------------------
+|               Footer                          |
+--------------------------------------------------
+
+EVENTS
+--------------------------------------------------
+|             UPCOMING EVENTS                   |
+|                Campus Calendar                |
+--------------------------------------------------
+| Tech Innovation | Code Sprint | Cultural Fest  |
+| 20 SEP          | 25 SEP      | 02 OCT         |
+| [View details]  | [View details] | [View details]|
+--------------------------------------------------
+|              Event Details Modal              |
+|  Registration information and schedule         |
+|                         [Close]               |
+--------------------------------------------------
+
+FAQ
+--------------------------------------------------
+|          FREQUENTLY ASKED QUESTIONS           |
+|                    Help Center                |
+--------------------------------------------------
+| What is StudentHub?                         [+]|
+| How do I register?                           [+]|
+| Can I update my profile?                     [+]|
+--------------------------------------------------
+|       Expanded answer appears below question  |
+--------------------------------------------------
+
+CONTACT
+--------------------------------------------------
+|             CONTACT STUDENTHUB               |
+|                 Get in touch                 |
+--------------------------------------------------
+| Name                                             |
+| [                                      ]          |
+| Email                                            |
+| [                                      ]          |
+| Message                                          |
+| [                                      ]          |
+|              [Send Message]                    |
+--------------------------------------------------
+
+FEEDBACK
+--------------------------------------------------
+|                  FEEDBACK                    |
+|              Your voice matters              |
+--------------------------------------------------
+| Rating                                           |
+| [5 - Excellent                         v]        |
+| Your feedback                                    |
+| [                                      ]          |
+| [                                      ]          |
+|             [Submit Feedback]                    |
+--------------------------------------------------
+
+LOGIN
+--------------------------------------------------
+|                    LOGIN                    |
+|              Welcome back                    |
+| Use your StudentHub credentials.              |
+| Email                                            |
+| [student@example.com                    ]        |
+| Password                                         |
+| [Enter password                         ]        |
+|                  [Login]                         |
+| New student? [Create an account]                |
+--------------------------------------------------
+
+PROFILE
+--------------------------------------------------
+|                STUDENT PROFILE               |
+|                 My Profile                   |
+|                    [DP]                      |
+--------------------------------------------------
+| Full Name              | Email                |
+| [Student Name]         | [student@example.com]|
+| Course                 | Year                 |
+| [B.Tech Computer...]   | [3rd Year]           |
+|                 [Save Changes]               |
+--------------------------------------------------
