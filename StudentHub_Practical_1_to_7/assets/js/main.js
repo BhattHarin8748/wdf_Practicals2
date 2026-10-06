@@ -48,11 +48,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const modal = document.querySelector("#eventModal");
   if (modal) {
-    const closeModal = () => { modal.hidden = true; body.classList.remove("modal-open"); };
-    document.querySelectorAll(".details-btn").forEach(btn => btn.addEventListener("click", () => {
+    const modalStorageKey = "studenthub-event-modal-state";
+    modal.hidden = true;
+    modal.style.display = "none";
+    const openModal = () => {
+      modal.style.display = "grid";
       modal.hidden = false;
       body.classList.add("modal-open");
+      sessionStorage.setItem(modalStorageKey, "open");
       modal.querySelector(".modal-close").focus();
+    };
+    const closeModal = () => {
+      modal.hidden = true;
+      modal.style.display = "none";
+      body.classList.remove("modal-open");
+      sessionStorage.setItem(modalStorageKey, "closed");
+    };
+    if (sessionStorage.getItem(modalStorageKey) !== "closed") openModal();
+    document.querySelectorAll(".details-btn").forEach(btn => btn.addEventListener("click", () => {
+      openModal();
     }));
     modal.querySelector(".modal-close").addEventListener("click", closeModal);
     modal.addEventListener("click", e => { if (e.target === modal) closeModal(); });

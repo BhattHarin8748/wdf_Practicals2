@@ -1,0 +1,17 @@
+[
+  {"id":1,"title":"Code Sprint","category":"Workshop","date":"2026-10-12","location":"Innovation Lab","description":"Build a useful prototype with a small team during this friendly coding challenge.","organizer":"Computer Science Club"},
+  {"id":2,"title":"Cultural Fest","category":"Culture","date":"2026-10-18","location":"Central Quadrangle","description":"Celebrate campus cultures with music, food, art and student performances.","organizer":"Student Council"},
+  {"id":3,"title":"Research Poster Day","category":"Academic","date":"2026-10-22","location":"Science Hall","description":"Share undergraduate research and meet students working across disciplines.","organizer":"Research Office"},
+  {"id":4,"title":"Campus 5K Run","category":"Sports","date":"2026-10-25","location":"North Gate","description":"Take part in a relaxed community run open to all fitness levels.","organizer":"Athletics Department"},
+  {"id":5,"title":"Portfolio Review","category":"Workshop","date":"2026-10-29","location":"Design Studio","description":"Get practical feedback on your portfolio from local creative professionals.","organizer":"Design Society"},
+  {"id":6,"title":"Open Mic Night","category":"Culture","date":"2026-11-03","location":"Student Commons","description":"Perform poetry, music or comedy, or come along to support your classmates.","organizer":"Arts Collective"},
+  {"id":7,"title":"Robotics Showcase","category":"Academic","date":"2026-11-08","location":"Engineering Atrium","description":"See student-built robots and try a series of hands-on demonstrations.","organizer":"Robotics Club"},
+  {"id":8,"title":"Basketball Cup","category":"Sports","date":"2026-11-12","location":"Indoor Arena","description":"Support department teams as they compete in the annual campus cup.","organizer":"Athletics Department"},
+  {"id":9,"title":"Internship Clinic","category":"Careers","date":"2026-11-16","location":"Career Center","description":"Meet career advisors for help finding and applying to internships.","organizer":"Career Services"},
+  {"id":10,"title":"Sustainability Forum","category":"Community","date":"2026-11-20","location":"Learning Hub, Room 2","description":"Discuss practical ideas for making everyday campus life more sustainable.","organizer":"Green Campus Network"},
+  {"id":11,"title":"Photography Walk","category":"Culture","date":"2026-11-24","location":"East Courtyard","description":"Explore campus light and architecture on a guided beginner-friendly photo walk.","organizer":"Photography Club"},
+  {"id":12,"title":"Data Skills Lab","category":"Workshop","date":"2026-11-28","location":"Digital Lab 1","description":"Practice turning a small dataset into a clear, useful visual story.","organizer":"Library Learning Team"},
+  {"id":13,"title":"Table Tennis Social","category":"Sports","date":"2026-12-02","location":"Recreation Center","description":"Drop in for friendly matches, equipment provided.","organizer":"Recreation Club"},
+  {"id":14,"title":"Community Food Drive","category":"Community","date":"2026-12-06","location":"West Entrance","description":"Help collect and sort pantry donations for neighborhood food programs.","organizer":"Volunteer Network"},
+  {"id":15,"title":"Graduate Pathways Talk","category":"Careers","date":"2026-12-10","location":"Lecture Theatre A","description":"Hear recent graduates discuss first jobs, applications and career changes.","organizer":"Alumni Association"}
+]

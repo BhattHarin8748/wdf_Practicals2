@@ -1,0 +1,17 @@
+[
+  {"id":1,"name":"Aarav Mehta","department":"Computer Science","year":"Year 2","email":"aarav.mehta@studenthub.edu","interests":"Web development, chess"},
+  {"id":2,"name":"Maya Chen","department":"Design","year":"Year 3","email":"maya.chen@studenthub.edu","interests":"Illustration, accessibility"},
+  {"id":3,"name":"Noah Williams","department":"Engineering","year":"Year 1","email":"noah.williams@studenthub.edu","interests":"Robotics, cycling"},
+  {"id":4,"name":"Sofia Patel","department":"Business","year":"Year 4","email":"sofia.patel@studenthub.edu","interests":"Entrepreneurship, debate"},
+  {"id":5,"name":"Ethan Kim","department":"Computer Science","year":"Year 3","email":"ethan.kim@studenthub.edu","interests":"Data science, music"},
+  {"id":6,"name":"Amara Okafor","department":"Life Sciences","year":"Year 2","email":"amara.okafor@studenthub.edu","interests":"Ecology, photography"},
+  {"id":7,"name":"Lucas Garcia","department":"Engineering","year":"Year 4","email":"lucas.garcia@studenthub.edu","interests":"Renewable energy, football"},
+  {"id":8,"name":"Priya Nair","department":"Business","year":"Year 1","email":"priya.nair@studenthub.edu","interests":"Marketing, volunteering"},
+  {"id":9,"name":"Oliver Brown","department":"Design","year":"Year 2","email":"oliver.brown@studenthub.edu","interests":"Product design, film"},
+  {"id":10,"name":"Zara Hassan","department":"Computer Science","year":"Year 4","email":"zara.hassan@studenthub.edu","interests":"Cybersecurity, running"},
+  {"id":11,"name":"Mateo Silva","department":"Life Sciences","year":"Year 3","email":"mateo.silva@studenthub.edu","interests":"Biotechnology, cooking"},
+  {"id":12,"name":"Isla Thompson","department":"Engineering","year":"Year 2","email":"isla.thompson@studenthub.edu","interests":"Aerospace, hiking"},
+  {"id":13,"name":"Dev Shah","department":"Business","year":"Year 3","email":"dev.shah@studenthub.edu","interests":"Finance, basketball"},
+  {"id":14,"name":"Lena Fischer","department":"Design","year":"Year 1","email":"lena.fischer@studenthub.edu","interests":"Typography, theatre"},
+  {"id":15,"name":"Samuel Johnson","department":"Life Sciences","year":"Year 4","email":"samuel.johnson@studenthub.edu","interests":"Public health, swimming"}
+]

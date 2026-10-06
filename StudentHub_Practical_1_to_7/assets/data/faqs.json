@@ -1,0 +1,17 @@
+[
+  {"id":1,"question":"What is StudentHub?","category":"Getting started","answer":"StudentHub is a student portal concept that brings campus events, profiles and student information together."},
+  {"id":2,"question":"How do I create an account?","category":"Accounts","answer":"Open the Register page, complete the required fields and submit the form."},
+  {"id":3,"question":"How can I update my profile?","category":"Accounts","answer":"Sign in and open Profile to review and update your student details."},
+  {"id":4,"question":"Where can I find campus events?","category":"Events","answer":"Browse the Events page or use the event collection in this data browser to search and filter activities."},
+  {"id":5,"question":"Do I need to register for every event?","category":"Events","answer":"Registration requirements depend on the event. Check its event listing for the organizer's instructions."},
+  {"id":6,"question":"How do I contact student support?","category":"Support","answer":"Use the Contact page to send a message to the StudentHub team."},
+  {"id":7,"question":"Can I use StudentHub on my phone?","category":"Getting started","answer":"Yes. The pages are designed to adapt to mobile, tablet and desktop screens."},
+  {"id":8,"question":"Who can see my profile?","category":"Privacy","answer":"This demonstration uses sample data only and does not publish or store a real student directory."},
+  {"id":9,"question":"I forgot my password. What should I do?","category":"Accounts","answer":"Password recovery is not connected in this frontend demo. Contact your campus administrator for account help."},
+  {"id":10,"question":"How do I join a student club?","category":"Campus life","answer":"Visit a club event or contact its organizer to ask about membership and upcoming activities."},
+  {"id":11,"question":"Where are notices posted?","category":"Campus life","answer":"Check the dashboard for campus announcements and the events page for activity updates."},
+  {"id":12,"question":"Can I suggest an event?","category":"Events","answer":"Send your idea through the Contact page so the student activities team can review it."},
+  {"id":13,"question":"How do I report a problem with this site?","category":"Support","answer":"Describe the problem and the page where it happened in a message on the Contact page."},
+  {"id":14,"question":"Is the student directory live?","category":"Privacy","answer":"No. The directory is loaded from a local sample JSON file for this practical exercise."},
+  {"id":15,"question":"What if the data file cannot be loaded?","category":"Support","answer":"The page displays a clear error and offers a retry. If a previous response was cached, it can show that copy instead."}
+]

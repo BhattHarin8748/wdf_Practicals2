@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse StudentHub events, student profiles and frequently asked questions loaded from JSON.">
+  <title>Practical 6 Data Browser | StudentHub</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/practical6.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Student<span>Hub</span></a>
+      <nav id="mainNav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="faq.html">FAQ</a>
+        <a class="active" href="practical-6.html" aria-current="page">Data Browser</a>
+        <a href="practical-7.php">Server Forms</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page data-page">
+    <div class="container">
+      <div class="data-intro">
+        <p class="eyebrow">PRACTICAL 6 · FETCH API</p>
+        <h1>StudentHub data browser</h1>
+        <p>Browse live-rendered sample data. Search, filter, sort and move through each collection.</p>
+      </div>
+      <div class="dataset-tabs" role="tablist" aria-label="Choose a data collection">
+        <button class="dataset-tab" id="tab-events" type="button" role="tab" aria-selected="true" data-dataset="events">Events</button>
+        <button class="dataset-tab" id="tab-students" type="button" role="tab" aria-selected="false" data-dataset="students">Students</button>
+        <button class="dataset-tab" id="tab-faqs" type="button" role="tab" aria-selected="false" data-dataset="faqs">FAQs</button>
+      </div>
+      <section id="collectionPanel" role="tabpanel" aria-labelledby="tab-events">
+        <div class="data-controls">
+          <label>Search
+            <input id="dataSearch" type="search" placeholder="Search this collection" autocomplete="off">
+          </label>
+          <label><span id="filterLabel">Category</span>
+            <select id="dataFilter"><option value="">All categories</option></select>
+          </label>
+          <label>Sort by
+            <select id="dataSort"><option value="default">Recommended</option><option value="ascending">A to Z</option><option value="descending">Z to A</option></select>
+          </label>
+        </div>
+        <p class="data-summary" id="dataSummary" role="status" aria-live="polite"></p>
+        <div class="data-state" id="dataLoading" role="status">Loading data...</div>
+        <div class="data-state error" id="dataError" role="alert" hidden>
+          <p id="dataErrorMessage">This collection could not be loaded.</p>
+          <button class="retry-button" id="retryLoad" type="button">Retry</button>
+        </div>
+        <div class="data-grid" id="dataResults" aria-live="polite"></div>
+        <nav class="pagination" id="pagination" aria-label="Collection pages" hidden>
+          <button id="previousPage" type="button">Previous</button>
+          <span class="page-status" id="pageStatus"></span>
+          <button id="nextPage" type="button">Next</button>
+        </nav>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><strong>StudentHub</strong><p>Student portal project · Practical 6</p></div></footer>
+  <script src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/practical6.js"></script>
+</body>
+</html>
