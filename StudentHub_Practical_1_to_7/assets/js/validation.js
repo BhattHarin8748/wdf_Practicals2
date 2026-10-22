@@ -3,9 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!form) return;
 
   const $ = id => document.querySelector(id);
-  const fields = ["fullName", "email", "mobile", "course", "year", "gender", "password", "confirmPassword", "terms"];
+  const fields = ["fullName", "username", "email", "mobile", "course", "year", "gender", "password", "confirmPassword", "terms"];
   const messages = {
     fullName: "Enter a name using 2 to 50 letters, spaces, apostrophes or hyphens.",
+    username: "Use 3 to 20 letters, numbers or underscores.",
     email: "Enter a valid email address.",
     mobile: "Enter a valid 10-digit mobile number, optionally prefixed with +91.",
     course: "Select a course.",
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     terms: "You must accept the terms."
   };
   const errors = {
-    fullName: "fullNameError", email: "emailError", mobile: "mobileError",
+    fullName: "fullNameError", username: "usernameError", email: "emailError", mobile: "mobileError",
     course: "courseError", year: "yearError", gender: "genderError",
     password: "passwordError", confirmPassword: "confirmPasswordError", terms: "termsError"
   };
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const value = field === "terms" ? $("#terms").checked : $("#" + field).value.trim();
     switch (field) {
       case "fullName": return /^(?=.{2,50}$)[A-Za-z][A-Za-z '\u2019-]*[A-Za-z]$/.test(value);
+      case "username": return /^[A-Za-z0-9_]{3,20}$/.test(value);
       case "email": return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value);
       case "mobile": return /^(?:\+91[ -]?)?[6-9]\d{9}$/.test(value);
       case "course":
@@ -78,13 +80,19 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   form.addEventListener("submit", event => {
-    event.preventDefault();
+    const action = form.getAttribute("action") || "";
     const invalidFields = fields.filter(field => !validateField(field));
     if (invalidFields.length) {
+      event.preventDefault();
       $("#" + invalidFields[0]).focus();
       return;
     }
 
+    if (action && action !== "register.html" && action !== "#") {
+      return;
+    }
+
+    event.preventDefault();
     const message = $("#formMessage");
     message.hidden = false;
     message.textContent = "Registration successful! Demo account created.";

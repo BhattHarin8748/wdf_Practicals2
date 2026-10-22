@@ -11,6 +11,7 @@ StudentHub is a responsive student portal frontend created for the semester-long
 - **Practical 5:** Registration form validation, regular expressions, password strength and friendly errors
 - **Practical 6:** Fetch API, JSON rendering, search, filtering, sorting, pagination and cached offline fallback
 - **Practical 7:** PHP POST handling, server-side validation, CSRF protection and protected JSON storage
+- **Practical 9:** Secure registration with MySQLi, prepared statements, duplicate email/username checks and password hashing
 
 ## Main pages
 
@@ -35,6 +36,9 @@ StudentHub/
 ├── index.html
 ├── about.html
 ├── register.html
+├── register.php
+├── db.php
+├── studenthub_users.sql
 ├── login.html
 ├── dashboard.html
 ├── events.html
